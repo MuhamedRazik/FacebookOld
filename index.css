@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: "Nunito", serif;
 }
+body {
+    height: 100vh;
+    background-image: linear-gradient( to bottom left, rgb(255, 255, 255),rgb(227, 228, 235));
+}
 
 .header {
     background-color: #304f8f;
@@ -51,4 +55,18 @@ input {
     color: white;
     border: 1px solid #464646;
     background-color: #3a5faa;
+}
+.main-section {
+
+    background-color: black;
+}
+.left-section {
+    position: absolute;
+    width: 55vw;
+    top: 156px;
+    left: 133px;
+    color: #19346b;
+}
+#left-image, #left-paragraph {
+    width: 80%;
 }
