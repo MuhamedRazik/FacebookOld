@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+}
+
+.header {
+    background-color: #304f8f;
+    width: 100%;
+    height: 95px;
+}
+
+#logo {
+    position: absolute;
+    top: 25px;
+    left: 133px;
+    color: white;
+
+}
+
+.login {
+    position: absolute;
+    top: 15px;
+    left: 60vw;
+    color: rgba(255, 255, 255, 0.792);
+    font-size: 12px;
+
+}
+
+.password-section {
+    position: absolute;
+    top: 0;
+    left: 13vw;
+}
+
+input {
+    margin: 8px 0;
+    padding: 2px 0;
+}
+
+#forgotten-pswd {
+    color: rgba(215, 215, 215, 0.543);
+}
+
+#login-btn {
+    position: absolute;
+    right: 147px;
+    top: 40px;
+    padding: 2px 4px;
+    color: white;
+    border: 1px solid #464646;
+    background-color: #3a5faa;
+}
